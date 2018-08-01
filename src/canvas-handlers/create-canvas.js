@@ -1,6 +1,6 @@
-export const createCanvas = () => {
+import { drawBackground } from  './draw-background'
 
-    const canvas = document.getElementById('canvas');
-    console.log('CANVAS' canvas)
-
+export const createCanvas = (ctx) => {
+    //creates the playing field
+    drawBackground(ctx)
 }

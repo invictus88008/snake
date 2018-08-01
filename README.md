@@ -1,4 +1,4 @@
-#Welcome to Snake Game
+# Welcome to Snake Game
 
 ## Installation
 clone repo
